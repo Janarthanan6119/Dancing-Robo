@@ -1,0 +1,96 @@
+.face{
+    width:150px;
+    height:150px;
+    background-color: skyblue;
+    left: 45%;
+    top:25%;
+    position: relative;
+    border-radius: 100px 100px 0px 0px;
+
+}
+.face:hover{
+    transform: rotate(-65deg);
+}
+.eye1{
+    position: absolute;
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    top: 38%;
+    left: 23%;
+    border-radius: 50px;
+}
+.eye2{
+    position: absolute;
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    top: 38%;
+    left: 68%;
+    border-radius: 50px;
+}
+div.body{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-color: skyblue;
+    top:37%;
+    left:44%;
+    transition: width 2s; 
+}
+.body:hover{
+    transform:rotate(50deg);
+    width: 200px; 
+}
+.hand1{
+    width:20px;
+    height:100px;
+    background-color: skyblue;
+    position: absolute;
+    left: 42%;
+    top: 40%;
+    
+}
+.hand1:hover{
+    transform: rotate(80deg);
+}
+.hand2{
+    width:20px;
+    height:100px;
+    background-color: skyblue;
+    position: absolute;
+    left: 58%;
+    top:40%;
+}
+.hand2:hover{
+    transform: rotate(50deg);
+}
+
+.leg1{
+    width:20px;
+    height: 100px;
+    background-color: skyblue;
+    top:64%;
+    left:45%;
+    position: absolute;
+    border-radius: 0px 0px 50px 50px;
+}
+.leg1:hover{
+    transform: rotate(70deg);
+}
+.leg2{
+    width:20px;
+    height: 100px;
+    background-color: skyblue;
+    top:64%;
+    left:55%;
+    position: absolute;
+    border-radius:0px 0px 50px 50px;
+}
+.leg2:hover{
+    transform: rotate(90deg);
+}
+/* .main:hover{
+    transform: rotate(85deg);
+    border: 2px solid gray;
+} */
